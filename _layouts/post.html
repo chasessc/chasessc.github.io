@@ -1,11 +1,23 @@
 ---
 layout: default
 ---
+{% if page.gps %}
+<div id="map">
+<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAAhREGR2P8v2a2z7hn0OiqO70MfDTQoLs&q={{ page.gps }}&maptype=satellite&zoom=12" allowfullscreen>
+</div>
+{% endif %}
+
 <div id="post">
-{{ content }}
+  <h1 id="post-{{ page.slug }}">{{ page.title }}</h1>
+  
+  {{ contents }}
 </div>
 
 <div id="post-timeline">
+  {% if page.previous %}
   <div id="post-previous"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></div>
+  {% endif %}
+  {% if page.next %}
   <div id="post-next"><a href="{{ page.next.url }}">{{ page.next.title }}</a></div>
+  {% endif %}
 </div>
