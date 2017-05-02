@@ -1,3 +1,6 @@
 ---
 ---
+
 @import "{{ site.theme }}";
+// Custom CSS / SCSS
+.inner { width: 70%; min-width: 620px }
