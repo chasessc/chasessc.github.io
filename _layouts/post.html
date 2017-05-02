@@ -11,6 +11,13 @@ function initMap() {
           mapTypeId: 'satellite'
         });
 
+        var hikerMarker = new google.maps.Marker({
+          position: {lat: {{ page.lat }}, lng: {{ page.lng }} },
+          map: map,
+          icon: 'http://www.thehikingvegan.com/assets/img/hiker.svg',
+          title: 'Current Location'
+        });
+        
         var kmlSCA = new google.maps.KmlLayer({
           url: 'http://www.thehikingvegan.com/assets/kml/PCT_SouthernCalifornia.kmz',
           map: map,
