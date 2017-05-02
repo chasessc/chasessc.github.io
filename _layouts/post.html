@@ -16,11 +16,11 @@ layout: default
 
 <hr>
 
-<div id="post-timeline">
+<div id="pagination post-timeline">
   {% if page.previous %}
-  <div id="post-previous"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></div>
+  <div class="post-previous"><a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a></div>
   {% endif %}
   {% if page.next %}
-  <div id="post-next"><a href="{{ page.next.url }}">{{ page.next.title }}</a></div>
+  <div class="post-next"><a href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a></div>
   {% endif %}
 </div>

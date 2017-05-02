@@ -3,4 +3,18 @@
 
 @import "{{ site.theme }}";
 // Custom CSS / SCSS
-.inner { width: 70%; min-width: 620px }
+footer {
+  background-position: center;
+}
+.inner {
+  width: 70%; 
+  min-width: 620px;
+}
+.pagination a {
+  border-radius: 5px; 
+  margin: 0 4px;
+  padding: 4px 8px;
+  border: 1px solid #aaa;
+}
+
+  
