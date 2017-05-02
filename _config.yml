@@ -9,6 +9,10 @@ defaults:
     values:
       image: true
   - scope:
+      path: "assets/kml"
+    values:
+      kml: true
+  - scope:
       path: "_posts"
       type: "posts"
       layout: "post"
