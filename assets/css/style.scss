@@ -13,6 +13,9 @@ footer {
 .pagination {
   text-align: center;
 }
+.pagination > div {
+  display: inline-block;
+}
 .pagination a {
   border-radius: 5px; 
   margin: 0 4px;
