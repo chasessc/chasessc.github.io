@@ -26,8 +26,11 @@
           {{ content }}
         </section>
 
+        {% if page.footer %}
         <footer>
+          {{ page.footer }}
         </footer>
+        {% endif %}
       </div>
     </div>
   </body>
