@@ -1,10 +1,51 @@
 {% include header.html %}
 
-{% if page.gps %}
-<div id="map">
-<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAAhREGR2P8v2a2z7hn0OiqO70MfDTQoLs&q={{ page.gps }}&maptype=satellite&zoom=12" allowfullscreen>
-</iframe>
-</div>
+{% if page.lat and page.lng %}
+<div id="map" style="width:100%; height:450px"></div>
+<script>
+function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 11,
+          center: {lat: {{ lat }}, lng: {{ lng }} },
+          fullscreenControl: true,
+          mapTypeId: 'satellite'
+        });
+
+        var kmlSCA = new google.maps.KmlLayer({
+          url: 'http://www.thehikingvegan.com/assets/kml/PCT_SouthernCalifornia.kmz',
+          map: map,
+          preserveViewport: true
+        });
+        
+        var kmlCCA = new google.maps.KmlLayer({
+          url: 'http://www.thehikingvegan.com/assets/kml/PCT_CentralCalifornia.kmz',
+          map: map,
+          preserveViewport: true
+        });
+        
+        var kmlNCA = new google.maps.KmlLayer({
+          url: 'http://www.thehikingvegan.com/assets/kml/PCT_NorthernCalifornia.kmz',
+          map: map,
+          preserveViewport: true
+        });
+        
+        var kmlOregon = new google.maps.KmlLayer({
+          url: 'http://www.thehikingvegan.com/assets/kml/PCT_Oregon.kmz',
+          map: map,
+          preserveViewport: true
+        });
+        
+        var kmlWashington = new google.maps.KmlLayer({
+          url: 'http://www.thehikingvegan.com/assets/kml/PCT_Washington.kmz',
+          map: map,
+          preserveViewport: true
+        });
+        
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAhREGR2P8v2a2z7hn0OiqO70MfDTQoLs&callback=initMap">
+    </script>
 {% endif %}
 
 <div id="post">
