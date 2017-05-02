@@ -1,1 +1,16 @@
 theme: jekyll-theme-tactile
+timezone: US/Pacific
+permalink: /:year/:month/:day/:slug
+title: The Hiking Vegan
+description: Abbreviated thoughts from the trail.
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "_posts/pct"
+      type: "posts"
+    values:
+      category: PCT
+      tags: PCT
