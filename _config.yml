@@ -9,8 +9,13 @@ defaults:
     values:
       image: true
   - scope:
+      path: "_posts"
+      type: "posts"
+      layout: "post"
+  - scope:
       path: "_posts/pct"
       type: "posts"
+      layout: "post"
     values:
       category: PCT
       tags: PCT
