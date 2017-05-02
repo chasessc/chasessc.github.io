@@ -13,7 +13,7 @@
   {{ content }}
 </div>
 
-{% capture page.footer %}
+{% capture footer %}
 {% if page.previous or page.next %}
 <div class="pagination post-timeline">
   {% if page.previous %}
@@ -25,3 +25,5 @@
 </div>
 {% endif %}
 {% endcapture %}
+
+{% include footer.html content=footer %}
