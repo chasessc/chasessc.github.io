@@ -1,5 +1,5 @@
 {% assign finished = false %}
-{% for pctpage in site.tags.PCT %}
+{% for pctpage in site.tags.PCT | reverse %}
   {% if finished %}
     {% assign nextpage = pctpage %}
     {% break %}
