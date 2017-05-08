@@ -1,6 +1,4 @@
-{% include header.html %}
-
-{% if page.lat and page.lng %}
+{% capture map %}
 <div id="map" style="width:100%; height:450px"></div>
 <p><small>Hiker Icon from <a href="https://mapicons.mapsmarker.com/">Maps Icon Collection</a></small></p>
 <script>
@@ -12,12 +10,14 @@ function initMap() {
           mapTypeId: 'satellite'
         });
         
+        {% if page.lat and page.lng %}
         var hikerMarker = new google.maps.Marker({
           position: {lat: {{ page.lat }}, lng: {{ page.lng }} },
           map: map,
           icon: 'http://www.thehikingvegan.com/assets/img/hiker.png',
           title: 'Current Location'
         });
+        {% endif %}
         
         var kmlSCA = new google.maps.KmlLayer({
           url: 'http://www.thehikingvegan.com/assets/kml/PCT_SouthernCalifornia.kmz',
@@ -54,15 +54,15 @@ function initMap() {
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAhREGR2P8v2a2z7hn0OiqO70MfDTQoLs&callback=initMap">
     </script>
-{% endif %}
+{% endcapture %}
 
-<div id="post">
+{% capture content %}
+<div class="post">
   <h1 id="post-{{ page.slug }}"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
   <h3>{{ page.date | date_to_string }}</h3>
   {{ content }}
 </div>
 
-{% capture footer %}
 {% if page.previous or page.next %}
 <div class="pagination post-timeline">
   {% if page.previous %}
@@ -75,4 +75,4 @@ function initMap() {
 {% endif %}
 {% endcapture %}
 
-{% include footer.html content=footer %}
+{% include flexbox.html content=content left=map %}

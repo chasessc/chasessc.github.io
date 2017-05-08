@@ -2,14 +2,45 @@
 ---
 
 @import "{{ site.theme }}";
-// Custom CSS / SCSS
-footer {
-  background-position: center top;
+
+// === Custom CSS / SCSS ===
+// Flexbox "Holy Grail" Layout based on: https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
+#site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-.inner {
-  width: 70%; 
-  min-width: 620px;
+
+#site-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px 30px;
 }
+
+#site-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#site-gmap {
+    order: -1;
+}
+
+@media (min-width: 768px) {
+    #site-body {
+        flex-direction: row;
+        flex: 1;
+    }
+    #site-content {
+        flex: 1;
+    }
+    #site-gmap {
+        flex: 0 0 12em;
+    }
+}
+
+// Pagination (TODO: Clean-up / Remove)
 .pagination {
   text-align: center;
 }
