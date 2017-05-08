@@ -8,6 +8,10 @@ header {
   padding: 30px; 
 }
 
+footer {
+  background-position: center top;
+}
+
 // Flexbox "Holy Grail" Layout based on: https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
 #site {
     display: flex;
@@ -39,6 +43,7 @@ header {
     }
     #site-content {
         flex: 4;
+        margin: 0px 30px;
     }
     #site-left {
         flex: 1 0 400px;
