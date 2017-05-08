@@ -4,6 +4,10 @@
 @import "{{ site.theme }}";
 
 // === Custom CSS / SCSS ===
+header { 
+  padding: 30px; 
+}
+
 // Flexbox "Holy Grail" Layout based on: https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
 #site {
     display: flex;
@@ -23,7 +27,7 @@
     flex-direction: column;
 }
 
-#site-gmap {
+#site-left {
     order: -1;
 }
 
@@ -35,7 +39,7 @@
     #site-content {
         flex: 1;
     }
-    #site-gmap {
+    #site-left {
         flex: 0 0 12em;
     }
 }
