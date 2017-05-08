@@ -38,7 +38,7 @@ function initMap() {
               map: map,
               title: pctpage.title
             });
-            marker{% counter %}.addListener('click', function() {
+            marker{{ counter }}.addListener('click', function() {
               window.location.href = '{{ pctpage.url }}';
             });
             {% endif %}
