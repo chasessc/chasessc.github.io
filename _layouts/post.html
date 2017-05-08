@@ -1,17 +1,3 @@
-{% assign finished = false %}
-{% assign pctpages = site.tags.PCT | reverse %}
-{% for pctpage in pctpages %}
-  {% if finished %}
-    {% assign nextpage = pctpage %}
-    {% break %}
-  {% elsif pctpage == page %}
-    {% assign finished = true %}
-    {% continue %}
-  {% else %}
-    {% assign prevpage = pctpage %}
-  {% endif %}
-{% endfor %}
-
 {% capture map %}
 <div id="map" style="width:100%; height:100%"></div>
 <p><font size="-2">Hiker Icon from <a href="https://mapicons.mapsmarker.com/">Maps Icon Collection</a></font></p>
@@ -19,19 +5,45 @@
 function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 11,
-          center: {lat: {{ page.lat }}, lng: {{ page.lng }} },
+          center: { lat: 32.589742, lng: -116.466981 },
           fullscreenControl: true,
           mapTypeId: 'satellite'
         });
         
+        map.fitBounds( { north: -120.838530, south: -117.137984, east: 40.749212, west: 40.443366 } );
+        
         {% if page.lat and page.lng %}
         var hikerMarker = new google.maps.Marker({
-          position: {lat: {{ page.lat }}, lng: {{ page.lng }} },
+          position: { lat: {{ page.lat }}, lng: {{ page.lng }} },
           map: map,
           icon: 'http://www.thehikingvegan.com/assets/img/hiker.png',
           title: 'Current Location'
         });
         {% endif %}
+        
+        {% assign finished = false %}
+        {% assign pctpages = site.tags.PCT | reverse %}
+        {% for pctpage in pctpages %}
+          {% if finished %}
+            {% assign nextpage = pctpage %}
+            {% break %}
+          {% elsif pctpage == page %}
+            {% assign finished = true %}
+            {% continue %}
+          {% else %}
+            {% assign prevpage = pctpage %}
+            {% if pctpage.lat and pctpage.lng %}
+            var marker{% increment counter %} = new google.maps.Marker({
+              position: { lat: {{ pctpage.lat }}, lng: {{ pctpage.lng }} },
+              map: map,
+              title: pctpage.title
+            });
+            marker{% counter %}.addListener('click', function() {
+              window.location.href = '{{ pctpage.url }}';
+            });
+            {% endif %}
+          {% endif %}
+        {% endfor %}
         
         var kmlSCA = new google.maps.KmlLayer({
           url: 'http://www.thehikingvegan.com/assets/kml/PCT_SouthernCalifornia.kmz',
