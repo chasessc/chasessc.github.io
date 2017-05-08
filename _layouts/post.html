@@ -1,4 +1,5 @@
 {% capture map %}
+<!-- I know how shonky this is.  I don't have time before this hike to make it cleaner. =( -->
 <div id="map" style="width:100%; height:100%"></div>
 <p><font size="-2">Hiker Icon from <a href="https://mapicons.mapsmarker.com/">Maps Icon Collection</a></font></p>
 <script>
@@ -37,7 +38,7 @@ function initMap() {
             var marker{{ markerno }} = new google.maps.Marker({
               position: { lat: {{ pctpage.lat }}, lng: {{ pctpage.lng }} },
               map: map,
-              title: {{ pctpage.title }}
+              title: '{{ pctpage.title }}'
             });
             marker{{ markerno }}.addListener('click', function() {
               window.location.href = '{{ pctpage.url }}';
