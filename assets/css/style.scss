@@ -51,13 +51,15 @@ footer {
 }
 
 // Pagination (TODO: Clean-up / Remove)
+
 .pagination > div {
   display: inline-block;
+  margin: 8px;
 }
 
 .pagination a {
   border-radius: 5px; 
-  margin: 4px 8px;
+  margin: 0 4px;
   padding: 4px 8px;
   border: 1px solid #aaa;
 }
