@@ -22,6 +22,7 @@ function initMap() {
         {% endif %}
         
         {% assign finished = false %}
+        {% assign markerno = 0 %}
         {% assign pctpages = site.tags.PCT | reverse %}
         {% for pctpage in pctpages %}
           {% if finished %}
@@ -33,14 +34,15 @@ function initMap() {
           {% else %}
             {% assign prevpage = pctpage %}
             {% if pctpage.lat and pctpage.lng %}
-            var marker{% increment counter %} = new google.maps.Marker({
+            var marker{{ markerno }} = new google.maps.Marker({
               position: { lat: {{ pctpage.lat }}, lng: {{ pctpage.lng }} },
               map: map,
               title: pctpage.title
             });
-            marker{{ counter }}.addListener('click', function() {
+            marker{{ markerno }}.addListener('click', function() {
               window.location.href = '{{ pctpage.url }}';
             });
+            {% assign markerno = markerno | plus: 1 %}
             {% endif %}
           {% endif %}
         {% endfor %}
