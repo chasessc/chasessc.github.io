@@ -12,14 +12,25 @@
     <title>{{ site.title }} - {{ page.title | default: site.github.repository_name }}</title>
   </head>
 
-  <body>
-    <div id="container">
-      <div class="inner">
-        <header>
-          <h1><a href="{{ site.baseurl }}/">{{ site.title | default: site.github.repository_name }}</a></h1>
-          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        </header>
-        
-        <hr>
-
-        <section id="main_content">
+  <body id="site">
+    <header>
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <h2>{{ site.description }}</h2>
+    </header>
+    
+    <div id="site-body">
+      <main id="site-content">
+        {{ include.content }}
+      </main>
+      <div id="site-left">
+        {{ include.left }}
+      </div>
+    </div>
+    
+    <footer>
+      {{ include.footer }}
+    </footer>
+  </body>
+</html>
+    
+    
