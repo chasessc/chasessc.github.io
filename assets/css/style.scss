@@ -18,7 +18,7 @@ header {
 #site-body {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 4;
     padding: 10px 30px;
 }
 
@@ -34,13 +34,14 @@ header {
 @media (min-width: 768px) {
     #site-body {
         flex-direction: row;
+        justify-content: center;
         flex: 1;
     }
     #site-content {
         flex: 1;
     }
     #site-left {
-        flex: 0 0 12em;
+        flex: 1 0 400px;
     }
 }
 
