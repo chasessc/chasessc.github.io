@@ -11,7 +11,13 @@ function initMap() {
           mapTypeId: 'satellite'
         });
         
-        map.fitBounds( { north: -120.838530, south: -117.137984, east: 40.749212, west: 40.443366 } );
+        var bounds = {
+          north: 49.358866,
+          south: 32.531266,
+          east: -116.005765,
+          west: -124.459005
+        };
+        map.fitBounds( bounds ); 
         
         {% if page.lat and page.lng %}
         var hikerMarker = new google.maps.Marker({
