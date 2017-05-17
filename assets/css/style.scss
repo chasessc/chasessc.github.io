@@ -10,6 +10,15 @@ header {
 
 footer {
   background-position: center top;
+  text-align: center;
+}
+
+ul li {
+  margin-left: 30px;
+}
+
+ol li {
+  margin-left: 30px;
 }
 
 // Flexbox "Holy Grail" Layout based on: https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
@@ -85,9 +94,3 @@ footer {
   padding: 4px 8px;
   border: 1px solid #aaa;
 }
-
-// footer
-footer {
-  text-align: center;
-}
-  
