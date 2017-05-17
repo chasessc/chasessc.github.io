@@ -67,6 +67,10 @@ hr {
   border: 1px solid #aaa;
 }
 
+.pagination > .post-previous, .pagination > .post-next {
+  padding: 0px 0px 6px 0px;
+}
+
 // Flexbox resizing based on screen size
 @media (min-width: 768px) {
     #site-body {
