@@ -100,13 +100,17 @@ function initMap() {
 
 {% if prevpage or nextpage %}
 <div class="pagination post-timeline">
-  {% if prevpage %}
-  <div class="post-previous"><a href="{{ prevpage.url }}">&laquo; {{ prevpage.title }}</a></div>
-  {% endif %}
+  <div class="post-previous">
+    {% if prevpage %}
+    <a href="{{ prevpage.url }}">&laquo; {{ prevpage.title }}</a>
+    {% endif %}
+  </div>
   <div class="diamond">&#9679;</div>
-  {% if nextpage %}
-  <div class="post-next"><a href="{{ nextpage.url }}">{{ nextpage.title }} &raquo;</a></div>
-  {% endif %}
+  <div class="post-next">
+    {% if nextpage %}
+    <a href="{{ nextpage.url }}">{{ nextpage.title }} &raquo;</a>
+    {% endif %}
+  </div>
 </div>
 {% endif %}
 {% endcapture %}
