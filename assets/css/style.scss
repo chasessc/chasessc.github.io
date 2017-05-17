@@ -48,6 +48,26 @@ hr {
     order: -1;
 }
 
+// Pagination
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pagination > .diamond {
+  padding: 0px 5px;
+  display: none;
+}
+
+.pagination a {
+  border-radius: 5px; 
+  margin: 0 4px;
+  padding: 4px 8px;
+  border: 1px solid #aaa;
+}
+
+// Flexbox resizing based on screen size
 @media (min-width: 768px) {
     #site-body {
         flex-direction: row;
@@ -87,23 +107,4 @@ hr {
 #site-content img + em {
   display: block;
   text-align: center;
-}
-
-// Pagination (TODO: Clean-up / Remove)
-.pagination {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.pagination > .diamond {
-  padding: 0px 5px;
-  display: none;
-}
-
-.pagination a {
-  border-radius: 5px; 
-  margin: 0 4px;
-  padding: 4px 8px;
-  border: 1px solid #aaa;
 }
