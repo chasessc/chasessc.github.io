@@ -51,7 +51,16 @@ footer {
 }
 
 // Images
-#site-content img { max-width: 100% }
+#site-content img { 
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#site-content img + em {
+  display: block;
+  text-align: center;
+}
 
 // Pagination (TODO: Clean-up / Remove)
 .pagination > div {
