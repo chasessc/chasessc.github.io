@@ -63,14 +63,18 @@ footer {
 }
 
 // Pagination (TODO: Clean-up / Remove)
-.pagination > div {
+.pagination > .post-previous, .pagination > .post-next {
   display: inline-block;
   margin: 4px 0px;
   width: 48%;
 }
 
-.pagination .post-previous {
+.pagination > .post-previous {
   text-align: right;
+}
+
+.pagination > .diamond {
+  text-align: center;
 }
 
 .pagination a {
