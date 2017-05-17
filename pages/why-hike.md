@@ -16,33 +16,19 @@ On my 30th birthday, spent solo hiking in Yosemite, the answer became apparent -
 
 ## When I successfully thru-hike the Pacific Crest Trail, I will...
 * have spent months exploring my inner thoughts and unraveling my issues and insecurities.
-
 * have met interesting people from all walks of life, and myriad nationalities.
-
 * have learned a large amount about backpacking.
-
 * have learned a large amount about things other than backpacking.
-
 * be in the best shape of my life.
-
 * be a more flexible person.
-
 * be more confident and happy with who I am, as who I am more closely resembles who I want to be.
-
 * know with more certainly what I want to do next in life.
-
 * have culminated my time away from the professional / working world with a meaningful and explainable endeavor.  Thru-hiking the Pacific Crest Trail is something I expect to be able to point to as demonstrable proof of my research and planning abilities, self-sufficiency, adaptability, and follow-through.
-
 * have one hell of a story.
-
 
 ## If I give up on the Pacific Crest Trail, I will...  
 * be incredibly disappointed in myself.
-
 * feel that I have let down those who encouraged and supported me, even if they insist otherwise.
-
 * have to find a job without a capstone to my time away.
-
 * be stuck eating months worth of pop-tarts, clif bars, and dehydrated food.
-
 * likely become very depressed.
