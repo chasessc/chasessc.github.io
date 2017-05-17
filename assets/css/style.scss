@@ -21,6 +21,10 @@ ol li {
   margin-left: 30px;
 }
 
+hr {
+  width: 100%;
+}
+
 // Flexbox "Holy Grail" Layout based on: https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
 #site {
     display: flex;
@@ -58,6 +62,19 @@ ol li {
         flex: 1 0 400px;
         margin: 0px 30px 0px 0px;
     }
+    .pagination {
+      flex-direction: row;
+    }
+    .pagination > .post-previous, .pagination > .post-next {
+      flex: 1 1 calc(50% - 10px);
+    }
+    .pagination > .post-previous {
+      text-align: right;
+    }
+    .pagination > .diamond {
+      display: inline-block;
+      flex: 0 0 10px;
+    }
 }
 
 // Images
@@ -73,19 +90,15 @@ ol li {
 }
 
 // Pagination (TODO: Clean-up / Remove)
-.pagination > .post-previous, .pagination > .post-next {
-  display: inline-block;
-  margin: 4px 0px;
-  width: 48%;
-}
-
-.pagination > .post-previous {
-  text-align: right;
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .pagination > .diamond {
-  text-align: center;
-  display: inline-block;
+  padding: 0px 5px;
+  display: none;
 }
 
 .pagination a {
