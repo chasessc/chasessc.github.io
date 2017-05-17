@@ -1,0 +1,5 @@
+<footer>
+	{% for spage in site.pages %}
+	<a href="{{ site.baseurl }}{{ spage.url }}">{{ spage.title }}</a>
+	{% endfor %}
+</footer>
