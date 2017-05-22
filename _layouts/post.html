@@ -44,7 +44,7 @@ function initMap() {
             var marker{{ markerno }} = new google.maps.Marker({
               position: { lat: {{ pctpage.lat }}, lng: {{ pctpage.lng }} },
               map: map,
-              title: '{{ pctpage.title }}'
+              title: '{{ pctpage.title | escape }}'
             });
             marker{{ markerno }}.addListener('click', function() {
               window.location.href = '{{ pctpage.url }}';
