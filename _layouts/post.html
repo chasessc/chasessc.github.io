@@ -13,14 +13,6 @@ function initMap() {
           mapTypeId: 'satellite'
         });
         
-        var bounds = {
-          north: 49.358866,
-          south: 32.531266,
-          east: -116.005765,
-          west: -124.459005
-        };
-        map.fitBounds( bounds ); 
-        
         {% if page.lat and page.lng %}
         map.setZoom(11);
         map.setCenter( { lat: {{ page.lat }}, lng: {{ page.lng }} } );
@@ -30,6 +22,14 @@ function initMap() {
           icon: 'http://www.thehikingvegan.com/assets/img/hiker.png',
           title: 'Current Location'
         });
+        {% else %}
+        var bounds = {
+          north: 49.358866,
+          south: 32.531266,
+          east: -116.005765,
+          west: -124.459005
+        };
+        map.fitBounds( bounds );
         {% endif %}
         
         {% assign finished = false %}
