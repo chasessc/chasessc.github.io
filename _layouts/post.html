@@ -22,6 +22,8 @@ function initMap() {
         map.fitBounds( bounds ); 
         
         {% if page.lat and page.lng %}
+        map.setZoom(11);
+        map.setCenter( { lat: {{ page.lat }}, lng: {{ page.lng }} } );
         var hikerMarker = new google.maps.Marker({
           position: { lat: {{ page.lat }}, lng: {{ page.lng }} },
           map: map,
