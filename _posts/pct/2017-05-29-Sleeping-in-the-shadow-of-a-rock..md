@@ -13,11 +13,11 @@ Anyway, today I forced myself to actually do it, aided by the fact that I knew i
 Early on in the day, I was passed by Rick (Drifthead) and Ghost, who looked suspiciously well-laundered.  It turned out they had hitched from Highway 74 -> Paradise Valley Cafe -> Idyllwild, and then back to Highway 74 to resume the trail.  I think if you need a break, hitching ahead and then back so you don't miss a section of the trail is a pretty good option.  They recommended Silver Pines Lodge in Idyllwild for when I get there, we shared a bit of news / gossip about various hikers we knew (this is primarily how updates on people travel), and they hustled on down the trail ahead of me faster than I was willing to go.  Lacking a trail name yet, my thoughts sometimes turn to names I would give myself, and one of them is "MrSlowAndSteady" (or, possibly, "CaptainSlowAndSteady" as an allusion to Top Gear's James May, and because who wants to simply be a mister when you can be a captain).  In a similar vein is "TheTortoise", because I tend to get passed by people only to later pass them while they're taking long rests while I keep shuffling my way down the trail.  Other ones could be "BTWImVegan" (sort of a common joke, but it's come up a surprising amount on the trail - eating out, declining food / hiker box options, and as the reason for my mailed-resupply, no-cook strategy.  No one's been a dick about it, which is nice.  In fact, most people are just impressed I'm sticking to a vegan diet while on the trail, and I've even gotten to have a few discussions about why I'm vegan, why I avoid down, etc.  Another obvious ones are "Gatorade" or "OrangeJar", because I keep my food soaking jar (an old gatorade powder jar) strapped to the back of my pack.  "PurplePack" for the very obvious reason that my pack is purple.  After I did my first night hiking, I thought something like "NightMiles" would be cool - but I'd have to keep up the nighthiking for that to make any sense.  Basically, when you're walking down the trail you have lots of time to think about all sorts of things - inane and otherwise.  Aside from humming or singing random song fragments, another one of my pastimes has becoming making stupid little rhymes up to amuse myself.  
 
 Exhibit A:
-*My name is Sam,
-I've got blisters on my feet,
-I do not eat meat,
-My pack's kind of heavy,
-Yet I move steady*
+*My name is Sam,*
+*I've got blisters on my feet,*
+*I do not eat meat,*
+*My pack's kind of heavy,*
+*Yet I move steady*
 
 The last line must be really belted/growled out for maximum effect - think Robin Williams singing "but I'm a mammal" in [The Batty Rap](https://g.co/kgs/ofGBB0) from Fern Gully.  Real quality stuff, in other words.
 
