@@ -1,5 +1,6 @@
 <footer>
-	{% for spage in site.pages | where "infooter", true %}
+  {% assign footerpages = site.pages | where "infooter", true %}
+	{% for spage in footerpages %}
 	<a href="{{ site.baseurl }}{{ spage.url }}">{{ spage.title }}</a>
 	{% endfor %}
 	<script>
