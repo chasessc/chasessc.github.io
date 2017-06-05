@@ -3,8 +3,8 @@ layout: post
 title: "Hillbilly's"
 date:  2017-06-02
 categories: pct
-lat: 33.913346
-lng: -116.786029
+lat:
+lng:
 ---
 ![Sunrise](/assets/img/posts/0602_sunrise.jpg)
 *Shortly after sunrise*
