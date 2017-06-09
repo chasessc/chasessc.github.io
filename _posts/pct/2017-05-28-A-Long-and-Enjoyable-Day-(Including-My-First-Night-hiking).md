@@ -6,8 +6,7 @@ categories: pct
 lat: 33.570484
 lng: -116.577377
 ---
-![Desert Flower](/assets/img/posts/0528_flower.jpg)
-*Desert Rose? - A bit past bloom, but still very pretty*
+{% include image.html url="0528_flower.jpg" caption="Desert Rose? - A bit past bloom, but still very pretty" %}
 
 Today was a great, but long, day.  I got up somewhere around 6:30 at Mike's, had a quick breakfast, loaded up around 7 liters of water, and took off.  This was another stretch that I knew had nothing but dry or questionable water sources  for about 18 miles, so I wanted to make sure I had plenty.  This was a really good idea since it was up to at least 95 F in the shade by the middle of the day, so I was definitely burning through some water.  I'd really like to stop walking during the day so much, but I inevitably seem to do a lot of hours at the hottest parts of the day.  There's also not much shade ever in most of these stretches, but even less so when the sun is directly overhead.
 
@@ -21,7 +20,7 @@ A few more miles down the road was the water cache I had been planning on visiti
 
 <pre>As you set out for Ithaka
 hope the voyage is a long one,
-full of adventure, full of disovery.
+full of adventure, full of discovery.
 Laistrygonians and Cyclops,
 angry Poseidon - don't be afraid of them:
 you'll never find things like that on your way
@@ -62,20 +61,15 @@ Wise as you will have become, so full of experience,
 you will have understood by then what these Ithakas mean.
 </pre>
 
-![Walden](/assets/img/posts/0528_walden.jpg)
-*Approach to Walden Cache*
+{% include image.html url="0528_walden.jpg" caption="Approach to Walden Cache" %}
 
-![Walden Note](/assets/img/posts/0528_walden2.jpg)
-*Note apologizing for the lack of a pond - literary jokes best jokes?*
+{% include image.html url="0528_walden2.jpg" caption="Note apologizing for the lack of a pond - literary jokes best jokes?" %}
 
-![Walden Library](/assets/img/posts/0528_walden3.jpg)
-*Walden Free Library - Books you don't need in a place you can't find*
+{% include image.html url="0528_walden3.jpg" caption="Walden Free Library - Books you don't need in a place you can't find" %}
 
-![Walden Thoreau](/assets/img/posts/0528_walden4.jpg)
-*Thoreau cut-out and quote*
+{% include image.html url="0528_walden4.jpg" caption="Thoreau cut-out and quote" %}
 
-![Walden Whitman](/assets/img/posts/0528_walden5.jpg)
-*Walt Whitman cut-out and quote*
+{% include image.html url="0528_walden5.jpg" caption="Walt Whitman cut-out and quote" %}
 
 I talked to Katie for a good long while at the Walden Cache while I made and ate dinner, and eventually Thor came along and conversation continued anew for a good while.  After still longer, Rooster and Woodchuck and their friends showed up.  I met them briefly back at Walden Springs and they seem pretty cool.  They also have a really great story.  Last year they thru-hiked the Appalachian Trail while dating, this year they're hiking the PCT while engaged, and next year they're planning to do the Continental Divide Trail for their honeymoon.  Thor left around this time to go set up camp about a mile down the road.  Not long after that, a really energetic guy with water dripping off his pack came in.  His name was Eric, he told us, and he had hiked in from highway 74 looking for his friend Josue (Bullet, from earlier).  As was soon revealed, the reason water was dripping off his pack was because he had hiked in ice in order to keep the beers he also hiked in cold.  The Rooster/Woodchuck group had seen Josue earlier in the day and were confident he'd make it there by end-of-day, so Eric stuck around, offered the collected group a beer, and was - I believe - in the process of rolling a joint for same.  It was starting to get late by this point, and I was feeling well-rested, so I said my goodbyes and got back out on the trail because I wanted to get some more miles in.
 

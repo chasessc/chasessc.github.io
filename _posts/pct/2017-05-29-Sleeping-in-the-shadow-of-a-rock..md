@@ -36,19 +36,14 @@ I, personally, just don't understand it.  Though I know with my late start date,
 
 The other reason I don't understand people skipping sections is that you just miss out on some of the experiences.  I present the following pictures as proof, including my first 360 panorama.  I have no idea how well it will display on the page.  Every day I'm out here, especially at the peaks, I just feel so good and so happy to be able to be out here doing this.  One of the "deeper thoughts" I keep mulling over as I walk along is how I would explain why I'm doing this to a young child.  It specifically takes the form of a young girl, because in Mount Laguna I was talking to a couple with a young girl about my trip thus far, and she was very shy, but also quite visibly excited about the idea of the hike - ever since I keep thinking about how I could explain it to her specifically, to really sell it.  I have a pretty good idea of what I'd say now, but it's something I'll write up later because I'd really like to take time to "do it right" rather than having it be in this freewheeling style of my posts.  I think having experience from sections other than the desert would also help make it a more complete and accurate answer.
 
-![Peak Panorama](/assets/img/posts/0529_peakpano.jpg)
-*360 Degree Panorama from near the peak*
+{% include image.html url="0529_peakpano.jpg" caption="360 Degree Panorama from near the peak" %}
 
-![Junction Bench](/assets/img/posts/0529_junctionbench.jpg)
-*A nice bench at the junction with the Cedar Spring trail*
+{% include image.html url="0529_junctionbench.jpg" caption="A nice bench at the junction with the Cedar Spring trail" %}
 
-![The Climb](/assets/img/posts/0529_climb.jpg)
-*What I'll tell people all of the PCT looks like.  Note: this is steeper and rockier than most sections thus far.  Shortly after the Cedar Spring junction*
+{% include image.html url="0529_climb.jpg" caption="What I'll tell people all of the PCT looks like.  Note: this is steeper and rockier than most sections thus far.  Shortly after the Cedar Spring junction" %}
 
-![Sunset](/assets/img/posts/0529_sunset.jpg)
-*Beautiful Sunset featuring Lake Hemet.  Why would you skip this?*
+{% include image.html url="0529_sunset.jpg" caption="Beautiful Sunset featuring Lake Hemet.  Why would you skip this?" %}
 
-![Civilization](/assets/img/posts/0529_civilization.jpg)
-*Evidence of civilization - the largest I'd seen for a while.  Palm Springs?*
+{% include image.html url="0529_civilization.jpg" caption="Evidence of civilization - the largest I'd seen for a while.  Palm Springs?" %}
 
 I also realized I didn't actually explain the title of this post.  I only hiked about 10 miles today, leaving about 20 miles to get into Idyllwild tomorrow because it was getting late, I had decided to take an easy day, and it didn't look like there was likely to be another campsite for a while.  The campsite I found was a little sketchy.  It was downhill off the trail a bit through some brush, in a small clearing next to a little cave formed between two giant boulders.  After sweeping my headlamp to the very back of the cave to make sure it wasn't being used by any creature, I set up in the clearing with a giant boulder towering over me.

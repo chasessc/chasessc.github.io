@@ -6,5 +6,4 @@ categories: pct
 lat: 32.5898
 lng: -116.4670
 ---
-![Southern Terminus](/assets/img/posts/southern_terminus.jpg)
-*Let's Do This!*
+{% include image.html url="southern_terminus.jpg" caption="Let's Do This!" %}

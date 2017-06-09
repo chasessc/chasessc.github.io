@@ -6,8 +6,7 @@ categories: pct
 lat: 32.686065 
 lng: -116.517715
 ---
-![Lake Morena](/assets/img/posts/lake_morena.jpg)
-*Lake Morena*
+{% include image.html url="lake_morena.jpg" caption="Lake Morena" %}
 
 I can't recall being as happy in recent memory as when I crested the hill and saw that view down to Lake Morena, knowing it was all downhill from there.  After having a blissful first 15 miles, where I was just so happy to be on the trail and chugging along, the last five miles of climb into Lake Morena was pretty damn tough for me.  I had been hiking 10-15 miles with about every other day at something between a 3.2-3.6mph pace, but due to a lack of time never with a pack.  Let me tell you, having 30lbs. on your back changes your opinion of distance and - particularly- elevation.  There were times near the end of the day where I'd check my watch to figure out my distance traveled through dead reckoning, only to check what felt like 10 or even 20 minutes later only to see that only a few minutes had elapsed.
 

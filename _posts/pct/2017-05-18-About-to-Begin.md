@@ -11,11 +11,8 @@ Well, it's finally about to get real.  After several (at times frantic) months o
 
 It's getting late now though, and I'd like to have an early morning, so here's a few pictures instead of more words:
 
-![Gear](/assets/img/posts/gear.jpg)
-*gear shot - before final tweaks*
+{% include image.html url="gear.jpg" caption="gear shot - before final tweaks" %}
 
-![Food](/assets/img/posts/food.jpg)
-*food - ready to ship!*
+{% include image.html url="food.jpg" caption="food - ready to ship!" %}
 
-![Extra Food](/assets/img/posts/extra_food.jpg)
-*extra food - a story for another day*
+{% include image.html url="extra_food.jpg" caption="extra food - a story for another day" %}
