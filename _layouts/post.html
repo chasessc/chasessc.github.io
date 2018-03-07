@@ -19,7 +19,7 @@ function initMap() {
         var hikerMarker = new google.maps.Marker({
           position: { lat: {{ page.lat }}, lng: {{ page.lng }} },
           map: map,
-          icon: 'http://www.thehikingvegan.com/assets/img/hiker.png',
+          icon: 'http://chasessc.github.io/assets/img/hiker.png',
           title: 'Current Location'
         });
         {% else %}
@@ -59,31 +59,31 @@ function initMap() {
         {% endfor %}
         
         var kmlSCA = new google.maps.KmlLayer({
-          url: 'http://www.thehikingvegan.com/assets/kml/PCT_SouthernCalifornia.kmz',
+          url: 'http://chasessc.github.io/assets/kml/PCT_SouthernCalifornia.kmz',
           map: map,
           preserveViewport: true
         });
         
         var kmlCCA = new google.maps.KmlLayer({
-          url: 'http://www.thehikingvegan.com/assets/kml/PCT_CentralCalifornia.kmz',
+          url: 'http://chasessc.github.io/assets/kml/PCT_CentralCalifornia.kmz',
           map: map,
           preserveViewport: true
         });
         
         var kmlNCA = new google.maps.KmlLayer({
-          url: 'http://www.thehikingvegan.com/assets/kml/PCT_NorthernCalifornia.kmz',
+          url: 'http://chasessc.github.io/assets/kml/PCT_NorthernCalifornia.kmz',
           map: map,
           preserveViewport: true
         });
         
         var kmlOregon = new google.maps.KmlLayer({
-          url: 'http://www.thehikingvegan.com/assets/kml/PCT_Oregon.kmz',
+          url: 'http://chasessc.github.io/assets/kml/PCT_Oregon.kmz',
           map: map,
           preserveViewport: true
         });
         
         var kmlWashington = new google.maps.KmlLayer({
-          url: 'http://www.thehikingvegan.com/assets/kml/PCT_Washington.kmz',
+          url: 'http://chasessc.github.io/assets/kml/PCT_Washington.kmz',
           map: map,
           preserveViewport: true
         });
